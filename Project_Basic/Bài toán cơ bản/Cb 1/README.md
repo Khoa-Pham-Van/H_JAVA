@@ -1,6 +1,6 @@
+
 Yêu cầu mỗi một đề bài phải cho người dùng nhập vào , mỗi input cần có 1 thông báo cho người dùng nhập , kết quả bên dưới cũng cần có
-tiêu đề là kết quả gì . Sau mỗi ý làm được sẽ dùng ----- để đánh dấu ,ví dụ (chưa yêu cầu đầu vào cần đúng kiểu hay không , tùy chọn kiểu
-dữ liệu nhập vào cho phù hợp ):
+tiêu đề là kết quả gì . Sau mỗi ý làm được sẽ dùng ----- để đánh dấu ,ví dụ :
 
 1.------------
 Nhap vao 2 so nguyen : 4 5
@@ -14,40 +14,106 @@ Tong 2 so la : 9
 
 ---
 
-1.Tính tổng hai số nguyên
+### 1. **Kiểm tra mật khẩu mạnh**
 
-2.Tính tích hai số thực
+Viết chương trình kiểm tra mật khẩu có đủ mạnh không, thoả các điều kiện:
 
-3.Tính chu vi và diện tích hình tròn
+* Ít nhất 8 ký tự
+* Có ít nhất 1 chữ hoa, 1 chữ thường, 1 chữ số, 1 ký tự đặc biệt
 
-4.Đổi nhiệt độ từ Celsius sang Fahrenheit
+### 2. ✅ **Tính điểm từ chuỗi điểm cách nhau bởi dấu `,`**
 
-5.Kiểm tra số chẵn lẻ
+Nhập từ bàn phím chuỗi `"8.5, 9.0, 6.0, 7.5"`
 
-6.Kiểm tra số âm hay dương
+Tính:
 
-7.Tìm số lớn nhất trong hai số
+* Tổng điểm
+* Trung bình
+* Điểm cao nhất
 
-8.Tìm số lớn nhất trong ba số
+---
 
-9.Kiểm tra năm nhuận
+### 3. **Giải nén chuỗi nén**
 
-10.Kiểm tra một ký tự có phải là nguyên âm không
+Cho chuỗi `"a3b2c1"` → in ra chuỗi `"aaabbc"`
 
-11.Kiểm tra một ký tự có phải là chữ hoa không
+---
 
-12.Tính giai thừa của một số
+### 4. **Kiểm tra email hợp lệ**
 
-13.In bảng cửu chương của một số
+Viết chương trình kiểm tra định dạng email có hợp lệ không. Điều kiện:
 
-14.Tính tổng các số từ 1 đến n
+* Có đúng 1 ký tự `@`
+* Có dấu `.` sau `@`
+* Không có khoảng trắng hoặc ký tự lạ
 
-15.In các số từ 1 đến 100 chia hết cho 3
+---
 
-16.Kiểm tra một số nguyên tố
+### 5. **Thống kê tần suất ký tự**
 
-17.In dãy Fibonacci đến số thứ n
+Nhập chuỗi bất kỳ, in ra số lần xuất hiện của mỗi ký tự (không phân biệt hoa thường).
 
-18.Đảo ngược một số nguyên
+---
 
-19.Đếm số chữ số của một số
+### 6. **Đếm số lần xuất hiện của từ**
+
+Nhập đoạn văn và từ cần tìm, đếm số lần từ đó xuất hiện (không phân biệt hoa thường).
+
+---
+
+### 7. **Tách số và chữ từ chuỗi lẫn lộn**
+
+Chuỗi `"abc123xy9"` → tách thành:
+
+* Ký tự: `"abcxy"`
+* Số: `"1239"`
+
+---
+
+### 8. **Đếm số nguyên tố trong chuỗi số**
+
+Nhập chuỗi `"2,3,4,5,6,7"` → đếm bao nhiêu số là số nguyên tố.
+
+---
+
+### 9. **Kiểm tra số điện thoại hợp lệ**
+
+Nhập số điện thoại, kiểm tra:
+
+* Dài 10 chữ số
+* Bắt đầu bằng `0`
+* Chỉ chứa số
+
+---
+
+### 10. **Chuẩn hoá tên đầy đủ**
+
+Nhập tên `"   nGUYEn   vaN    hOa "`
+
+Kết quả in ra: `"Nguyen Van Hoa"`
+
+---
+
+### 11. **Tìm phần tử xuất hiện nhiều nhất trong dãy số**
+
+Nhập chuỗi `"4,5,4,3,4,5"` → tìm số xuất hiện nhiều nhất và số lần xuất hiện của nó.
+
+---
+
+### 12. **Mã hoá chuỗi kiểu run-length**
+
+Nhập chuỗi `"aaabbc"` → kết quả `"a3b2c1"`
+
+---
+
+### 13. **Tìm từ dài nhất trong chuỗi**
+
+Nhập chuỗi `"Java is very powerful"` → kết quả `"powerful"`
+
+---
+
+### 14. **Kiểm tra chuỗi Palindrome**
+
+Nhập chuỗi bất kỳ → kiểm tra chuỗi có đối xứng không (bỏ qua khoảng trắng, chữ hoa/thường)
+
+---
